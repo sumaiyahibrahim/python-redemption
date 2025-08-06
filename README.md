@@ -53,7 +53,7 @@ Everything I wish existed when I kept restarting:
 
 ## 🎯 Progress Tracker
 
-_Updating this as I go _
+Updating this as I go 
 
 ![Day Streak](https://img.shields.io/badge/Day%20Streak-1-blue?style=for-the-badge&logo=python)  
 ![Progress](https://img.shields.io/badge/Progress-1%25-brightgreen?style=for-the-badge&logo=progress)  
@@ -68,4 +68,4 @@ _Updating this as I go _
 - To leave behind proof that I *can* finish what I start   
 - And maybe, just maybe… become the Python dev I keep pretending to be on my resume 
 
----
+
