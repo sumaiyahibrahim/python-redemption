@@ -1,6 +1,6 @@
 # 🐍 Yet Another Python Restart
 
-Welcome to the **daily Python* of my never-ending redemption arc.
+Welcome to the *daily Python* of my never-ending redemption arc.
 
 This repo is **for me** — to track my progress, hold myself accountable, and prove (mostly to myself) that I can finally stick to learning Python… for real this time.
 
