@@ -1,8 +1,8 @@
 # 🐍 Yet Another Python Restart
 
-Welcome to the *daily Python* of my never-ending redemption arc.
+Welcome to the **daily Python** of my never-ending redemption arc.
 
-This repo is **for me** — to track my progress, hold myself accountable, and prove (mostly to myself) that I can finally stick to learning Python… for real this time.
+This repo is **for me** to track my progress, hold myself accountable, and prove (mostly to myself) that I can finally stick to learning Python… for real this time.
 
 I've ghosted Python more often than I’ve opened VS Code. But this time:
 
@@ -17,7 +17,7 @@ I've ghosted Python more often than I’ve opened VS Code. But this time:
 
 Everything I wish existed when I kept restarting:
 
-- 📅 **Day-wise folders** with notes, code, and small wins  
+- 📅 **Day wise folders** with notes, code, and small wins  
 - ✍️ Beginner-level explanations (zero jargon, max clarity)  
 - 📥 Input/output samples with every concept  
 - 📈 Badges to track my streak and progress  
