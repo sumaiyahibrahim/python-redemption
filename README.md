@@ -7,7 +7,7 @@ This repo is **for me** to track my progress, hold myself accountable, and prove
 I've ghosted Python more often than I’ve opened VS Code. But this time:
 
 ✅ Daily commits  
-✅ No skipping days 
+✅ No skipping days                                                                               
 ✅ Crystal-clear notes like “this means this, that does that”  
 ✅ Explanations so beginner-friendly that even *yesterday-me* would get it  
 
