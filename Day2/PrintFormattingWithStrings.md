@@ -1,33 +1,38 @@
-# we can format strings using f-strings, format method, or old-style formatting
+# String Formatting in Python
 
-# f-strings (recommended, Python 3.6+)
+You can format strings using **f-strings** (recommended), the **format() method**, or old-style formatting.
+
+---
+
+## f-strings (Recommended, Python 3.6+)
+
+```python
 name = "Alice"
 age = 30
 print(f"Hello, my name is {name} and I am {age} years old.")
+```
 
-# String formatting with f-strings
+### String formatting with f-strings
+
+```python
 name = "Bob"
 height = 1.75
 print(f"{name} is {height:.2f} meters tall.")  # .2f formats float to 2 decimal places
+```
 
-# String formatting with format method
-print("Hello, my name is {} and I am {} years old.".format(name, age))
+---
 
-# string formatting with format method
-print("The value of pi is approximately {:.3f}.".format(3.14159))  # .3f formats float to 3 decimal places
+## String formatting with format() method
 
-
-# formating using index
-print("Hello, {0}. You are {1} years old.".format(name, age)) # using positional arguments
-print("Hello, {name}. You are {age} years old.".format(name=name, age=age))  # using keyword arguments
-
-
-
-# --- str.format() method details ---
-
+```python
 # Basic usage:
-print('This is a string {}'.format('INSERTED'))  # Output: This is a string INSERTED
+print("Hello, my name is {} and I am {} years old.".format(name, age))
+print("The value of pi is approximately {:.3f}.".format(3.14159))  # .3f formats float to 3 decimal places
+```
 
+### Details
+
+```python
 # Multiple insertions (positional arguments):
 print('The {} {} {}'.format('fox', 'brown', 'quick'))  # Output: The fox brown quick
 
@@ -52,4 +57,10 @@ print("The result was {r:1.3f}".format(r=result))   # Output: The result was 0.1
 print("{:<10} is left aligned.".format(name))       # left aligned, width 10
 print("{:>10} is right aligned.".format(name))      # right aligned, width 10
 print("{:^10} is center aligned.".format(name))     # center aligned, width 10
-print("{:*^10} is center aligned with padding.".format(name))  # * is the padding character
+print("{:*^10} is center aligned with padding.".format(name))  #
+
+print("Hello, {0}. You are {1} years old.".format(name, age)) # using positional arguments
+print("Hello, {name}. You are {age} years old.".format(name=name, age=age))  # using keyword arguments
+
+print('This is a string {}'.format('INSERTED'))  # Output: This is a string INSERTED
+```
