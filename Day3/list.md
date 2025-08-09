@@ -1,6 +1,6 @@
-# A list is a collection which is ordered and changeable. Allows duplicate members.
-# In Python, lists are defined by having values between square brackets [].
-# Lists can contain items of different data types, including other lists.
+## A list is a collection which is ordered and changeable. Allows duplicate members.
+## In Python, lists are defined by having values between square brackets [].
+## Lists can contain items of different data types, including other lists.
 
 ```python
 # Creating a list
