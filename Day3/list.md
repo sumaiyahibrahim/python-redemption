@@ -45,9 +45,14 @@ print(matrix[1][0])  # 3   # Accesses the first element of the second list (inde
 # Lists can be sliced, you can access a range of items using slicing syntax.
 ```python
 numbers = [0, 1, 2, 3, 4, 5]
-print(numbers[1:4])   # [1, 2, 3]   # Slices from index 1 up to (but not including) index 4
-print(numbers[:3])    # [0, 1, 2]   # Slices from the start up to (but not including) index 3
-print(numbers[::2])   # [0, 2, 4]   # Slices the whole list, taking every 2nd element (step=2)
+print(numbers[1:4])    # [1, 2, 3]   # Slices from index 1 up to (but not including) index 4
+print(numbers[:3])     # [0, 1, 2]   # Slices from the start up to (but not including) index 3
+print(numbers[::2])    # [0, 2, 4]   # Slices the whole list, taking every 2nd element (step=2)
+print(numbers[::-1])   # [5, 4, 3, 2, 1, 0]   # Reverses the list
+print(numbers[1::2])   # [1, 3, 5]   # Starts at index 1, takes every 2nd element
+print(numbers[2:5])    # [2, 3, 4]   # From index 2 up to (but not including) index 5
+print(numbers[-3:])    # [3, 4, 5]   # Last 3 elements
+print(numbers[:-2])    # [0, 1, 2, 3]   # All except the last 2 elements
 ```
 
 # Lists can be concatenated, you can combine two or more lists using the + operator.
