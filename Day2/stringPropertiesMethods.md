@@ -1,37 +1,32 @@
-# Text Type: str
+# String
 
-<!-- 
-  Strings are a fundamental data type in Python. 
-  They are used to store text and support many useful operations and methods.
--->
+- Strings are sequences of Unicode characters, defined with single (' '), double (" ") or triple quotes (''' ''' or """ """)
+- Strings are immutable (cannot be changed after creation)
+- Can be indexed and sliced: s[0], s[1:4], s[-1], etc.
+- Supports concatenation (+), repetition (*), and membership (in) operations
 
-# - Strings are sequences of Unicode characters, defined with single (' '), double (" "), or triple quotes (''' ''' or """ """)
-# - Strings are immutable (cannot be changed after creation)
-# - Can be indexed and sliced: s[0], s[1:4], s[-1], etc.
-# - Supports concatenation (+), repetition (*), and membership (in) operations
-
+### Concatenation:
 ```python
-# Concatenation:
 s1: str = "Hello"
 s2: str = "World"
 result: str = s1 + " " + s2  # 'Hello World'
 ```
 
+### Multiplying (repetition):
 ```python
-# Multiplying (repetition):
 repeat: str = "ha" * 3       # 'hahaha'
 ```
 
+### Membership:
 ```python
-# Membership:
-# The 'in' and 'not in' operators check if a substring exists within a string.
-# Returns True if the substring is found, otherwise False.
 exists: bool = "e" in "hello"    # True, because 'e' is in "hello"
 not_exists: bool = "z" not in "hello"  # True, because 'z' is not in "hello"
+# The 'in' and 'not in' operators check if a substring exists within a string.
+# Returns True if the substring is found, otherwise False.
 ```
 
+### Typecasting to string:
 ```python
-# Typecasting to string:
 num: int = 42
 num_str: str = str(num)      # '42'
 flt: float = 3.14
@@ -40,13 +35,13 @@ lst: list = [1, 2, 3]
 lst_str: str = str(lst)      # '[1, 2, 3]'
 ```
 
+### Typecasting from string (if possible):
 ```python
-# Typecasting from string (if possible):
 s_int: int = int("123")      # 123
 s_float: float = float("3.14") # 3.14
 ```
 
-# --- Common string methods with examples and their return types ---
+## Common string methods with examples and their return types
 
 ```python
 # s.lower()      # returns lowercase version (str)
@@ -76,7 +71,7 @@ example: list = "a\nb\nc".splitlines()  # ['a', 'b', 'c']
 example: str = "-".join(['a', 'b', 'c'])  # 'a-b-c'
 ```
 
-# --- More useful string methods with examples and their return types ---
+### More useful string methods with examples and their return types 
 
 ```python
 # s.isalpha()    # True if all characters are alphabetic (bool)
@@ -97,46 +92,33 @@ example: str = "42".zfill(5)           # '00042'
 example: str = "hi".center(6, "*")     # '**hi**'
 ```
 
-# --- Escape characters ---
-# \n (newline), \t (tab), \\ (backslash), \' (single quote), \" (double quote)
-# Use escape characters to include special characters in strings.
 
-# --- String formatting ---
-# f"Hello {name}"   # f-strings (recommended, Python 3.6+)
-# "Hello {}".format(name) # format method
-# "Hello %s" % name      # old-style formatting (not recommended for new code)
 
+### Additional string methods (for reference) 
 ```python
-# Example:
-s = " Hello, World! "
-print(s.strip().upper())  # Output: HELLO, WORLD!
+- s.casefold()         # aggressive lowercasing for caseless matching (str)
+- s.encode(encoding)   # returns encoded bytes of string (bytes)
+- s.endswith(suffix)   # True if string ends with suffix (bool)
+- s.expandtabs(tabsize) # replaces tabs with spaces (str)
+- s.format(*args, **kwargs) # advanced string formatting (str)
+- s.format_map(mapping)     # formatting with a mapping object (str)
+- s.index(sub)        # like find(), but raises ValueError if not found (int)
+- s.ljust(width, fillchar)  # left-justifies string (str)
+- s.rjust(width, fillchar)  # right-justifies string (str)
+- s.lstrip()          # removes leading whitespace (str)
+- s.rstrip()          # removes trailing whitespace (str)
+- s.maketrans(x, y)   # static method for translation tables (dict)
+- s.translate(table)  # returns translated string (str)
+- s.removeprefix(prefix) # removes prefix if present (str, Python 3.9+)
+- s.removesuffix(suffix) # removes suffix if present (str, Python 3.9+)
+- s.swapcase()        # swaps case of all letters (str)
+- s.rfind(sub)        # highest index of substring, -1 if not found (int)
+- s.rindex(sub)       # like rfind(), but raises ValueError if not found (int)
 ```
 
-# --- Additional string methods (for reference) ---
-# s.casefold()         # aggressive lowercasing for caseless matching (str)
-# s.encode(encoding)   # returns encoded bytes of string (bytes)
-# s.endswith(suffix)   # True if string ends with suffix (bool)
-# s.expandtabs(tabsize)# replaces tabs with spaces (str)
-# s.format(*args, **kwargs) # advanced string formatting (str)
-# s.format_map(mapping)     # formatting with a mapping object (str)
-# s.index(sub)        # like find(), but raises ValueError if not found (int)
-# s.ljust(width, fillchar)  # left-justifies string (str)
-# s.rjust(width, fillchar)  # right-justifies string (str)
-# s.lstrip()          # removes leading whitespace (str)
-# s.rstrip()          # removes trailing whitespace (str)
-# s.maketrans(x, y)   # static method for translation tables (dict)
-# s.translate(table)  # returns translated string (str)
-# s.removeprefix(prefix) # removes prefix if present (str, Python 3.9+)
-# s.removesuffix(suffix) # removes suffix if present (str, Python 3.9+)
-# s.swapcase()        # swaps case of all letters (str)
-# s.rfind(sub)        # highest index of substring, -1 if not found (int)
-# s.rindex(sub)       # like rfind(), but raises ValueError if not found (int)
+###  Properties 
+- Strings are immutable sequences of Unicode characters.
+- Can be iterated, indexed, and sliced.
+- Support for comparison operators (==, !=, <, >, etc.).
+- Support for membership test ('a' in s).
 
-# --- Properties ---
-# Strings are immutable sequences of Unicode characters.
-# Can be iterated, indexed, and sliced.
-# Support for comparison operators (==, !=, <, >, etc.).
-# Support for membership test ('a' in s).
-
-# --- Reference ---
-# For full reference, see: https://docs.python.org/3/library/stdtypes.html#string-methods
