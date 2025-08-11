@@ -1,6 +1,6 @@
-## A list is a collection which is ordered and changeable. Allows duplicate members.
-## In Python, lists are defined by having values between square brackets [].
-## Lists can contain items of different data types, including other lists.
+- A list is a collection which is ordered and changeable. Allows duplicate members.
+- In Python, lists are defined by having values between square brackets [].
+- Lists can contain items of different data types, including other lists.
 
 ```python
 # Creating a list
@@ -13,12 +13,12 @@ mixed = [1, "hello", 3.14, True]  # List with int, str, float, and bool
 nested = [1, 2, [3, 4], 5]  # List containing another list at index 2
 ```
 
-# Lists are mutable, you can change their content after creation.
+### Lists are mutable, you can change their content after creation.
 ```python
 fruits[1] = "blueberry"  # Changes the item at index 1 to 'blueberry'
 ```
 
-# Lists are dynamic, they can grow and shrink in size as needed.
+### Lists are dynamic, they can grow and shrink in size as needed.
 ```python
 fruits.append("orange")      # Adds 'orange' to the end of the list
 fruits.remove("apple")       # Removes the first occurrence of 'apple' from the list
@@ -26,7 +26,7 @@ fruits.pop()                 # Removes and returns the last item in the list
 fruits.insert(1, "kiwi")     # Inserts 'kiwi' at index 1 (shifts others right)
 ```
 
-# Lists are iterable, you can loop through them using a for loop.
+### Lists are iterable, you can loop through them using a for loop.
 ```python
 for fruit in fruits:
     print(fruit)  # Prints each fruit in the list one by one
@@ -36,13 +36,13 @@ for fruit in fruits:
 # cherry
 ```
 
-# Lists can be nested, you can have lists within lists.
+### Lists can be nested, you can have lists within lists.
 ```python
 matrix = [[1, 2], [3, 4], [5, 6]]
 print(matrix[1][0])  # 3   # Accesses the first element of the second list (index 1) in matrix
 ```
 
-# Lists can be sliced, you can access a range of items using slicing syntax.
+### Lists can be sliced, you can access a range of items using slicing syntax.
 ```python
 numbers = [0, 1, 2, 3, 4, 5]
 print(numbers[1:4])    # [1, 2, 3]   # Slices from index 1 up to (but not including) index 4
@@ -55,19 +55,19 @@ print(numbers[-3:])    # [3, 4, 5]   # Last 3 elements
 print(numbers[:-2])    # [0, 1, 2, 3]   # All except the last 2 elements
 ```
 
-# Lists can be concatenated, you can combine two or more lists using the + operator.
+### Lists can be concatenated, you can combine two or more lists using the + operator.
 ```python
 a = [1, 2, 3]
 b = [4, 5]
 combined = a + b      # [1, 2, 3, 4, 5]   # Concatenates lists a and b
 ```
 
-# Lists can be repeated, you can repeat a list using the * operator.
+### Lists can be repeated, you can repeat a list using the * operator.
 ```python
 repeat = [0, 1] * 3   # [0, 1, 0, 1, 0, 1]   # Repeats the list
 ```
 
-# Lists can be sorted (in-place) and reversed.
+### Lists can be sorted (in-place) and reversed.
 
 ```python
 # Sorting a list of strings alphabetically
