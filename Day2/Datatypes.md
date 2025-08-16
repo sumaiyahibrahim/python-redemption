@@ -4,7 +4,7 @@ Python has several built-in data types, grouped into categories:
 
 1. **Text Type:**  
    - `str` (string): e.g., `"hello"`, `'world'`
-
+ 
 2. **Numeric Types:**  
    - `int` (integer): e.g., `5`, `-3`, `100`
    - `float` (floating point): e.g., `3.14`, `-0.001`
