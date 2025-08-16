@@ -69,7 +69,7 @@ def greet_all(**kwargs):
 
 greet_all(Sara="Hi", Ayan="Hello")
 ```
-
+ 
 ### Lambda Function (1-line functions)
 ```python
 square = lambda x: x ** 2
