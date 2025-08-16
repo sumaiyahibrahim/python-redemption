@@ -7,7 +7,7 @@ In Python, **Booleans** represent one of two values:
 They are used to perform **logical operations**, control flow (like `if` statements), and evaluate expressions.
 
 ---
-
+ 
 ## Boolean Values
 
 ```python
