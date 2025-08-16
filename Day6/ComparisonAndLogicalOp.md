@@ -10,7 +10,7 @@
 | `<`      | Less than             | `3 < 8`           | `True`     |
 | `>=`     | Greater than or equal | `5 >= 5`          | `True`     |
 | `<=`     | Less than or equal    | `4 <= 6`          | `True`     |
-
+ 
 ##  The 3 Logical Operators in Python
 
 | Operator | Description            | Example               |
