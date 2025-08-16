@@ -56,7 +56,7 @@ print(numbers[:-2])    # [0, 1, 2, 3]   # All except the last 2 elements
 ```
 
 ### Lists can be concatenated, you can combine two or more lists using the + operator.
-```python
+```python 
 a = [1, 2, 3]
 b = [4, 5]
 combined = a + b      # [1, 2, 3, 4, 5]   # Concatenates lists a and b
