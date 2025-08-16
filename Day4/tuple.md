@@ -27,7 +27,7 @@ print(t1[1:3])    # (2, 3)
 ```
 
 ```python
-# Nested tuple
+# Nested tuple 
 nested = (1, (2, 3), [4, 5])
 ```
 
