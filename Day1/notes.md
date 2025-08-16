@@ -3,7 +3,7 @@
 ## 🖨️ 1. Printing in Python
 
 ```python
-print("Hello World")
+print("Hello World") 
 ```
 - Outputs text to the console
 - Use `\n` for new lines
