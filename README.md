@@ -51,16 +51,6 @@ Everything I wish existed when I kept restarting:
 
 ---
 
-## 🎯 Progress Tracker
-
-Updating this as I go 
-
-![Day Streak](https://img.shields.io/badge/Day%20Streak-1-blue?style=for-the-badge&logo=python)  
-![Progress](https://img.shields.io/badge/Progress-1%25-brightgreen?style=for-the-badge&logo=progress)  
-![Commit Daily](https://img.shields.io/badge/Commit-Daily-important?style=for-the-badge&logo=github)  
-![Python Journey](https://img.shields.io/badge/Python-100Days-blue?style=for-the-badge&logo=python)
-
----
 
 ## ⭐ Why This Matters (to me)
 
