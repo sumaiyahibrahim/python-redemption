@@ -53,6 +53,7 @@ else:
 ```
 - Python allows an else block after a for loop
 - The else runs only if the loop isn't broken by break.
+- return False inside the loop causes the function to exit too early — it doesn't check all elements.
 
 ## Breaking a Loop Early
 ```python
