@@ -1,7 +1,5 @@
 # 📝 Day 1 Notes – Python Basics
 
----
-
 ## 🖨️ 1. Printing in Python
 
 ```python
@@ -9,7 +7,7 @@ print("Hello World")
 ```
 - Outputs text to the console
 - Use `\n` for new lines
-- You can concatenate strings using `+`: 
+- You can concatenate strings using `+`:
 
 ```python
 print("Hello" + " World")
@@ -112,25 +110,13 @@ total_score = 99
 print = "something"    # Overwrites built-in
 ```
 
----
-
-## 🧪 6. Quiz & Exercises
-
-- Practice using `print()`
-- Try debugging common errors (missing quotes, wrong indent)
-- Use descriptive variable names
 
 ---
 
-## 🎯 7. Day Project – Band Name Generator
+##  Day Project – Band Name Generator
 
 ```python
 city = input("Which city did you grow up in?\n")
 pet = input("What is your pet's name?\n")
 print("Your band name could be " + city + " " + pet)
 ```
-
----
-
-# 👏 Reflection:
-> Finished Day 1 strong. Writing Python feels fun. Ready for Day 2!
