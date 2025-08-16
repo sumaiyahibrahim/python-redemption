@@ -9,7 +9,7 @@ print("Hello World")
 ```
 - Outputs text to the console
 - Use `\n` for new lines
-- You can concatenate strings using `+`:
+- You can concatenate strings using `+`: 
 
 ```python
 print("Hello" + " World")
