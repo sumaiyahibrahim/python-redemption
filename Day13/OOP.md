@@ -34,7 +34,7 @@ class NameOfClass:
 obj = NameOfClass("hello", "world")
 obj.some_method() # Output: hello
 ```
-
+ 
 
 
 Example :
