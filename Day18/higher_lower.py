@@ -15,7 +15,7 @@ data = [
     {"name": "Narendra Modi", "follower_count": 90, "description": "Prime Minister", "country": "India"},
     {"name": "Virat Kohli", "follower_count": 270, "description": "Cricketer", "country": "India"}
 ]
-
+ 
 # Clear screen
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
