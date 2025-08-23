@@ -102,7 +102,7 @@ def hit_or_stand(deck, hand):
             print("⚠️ Enter 'h' or 's' only.")
             continue
         break
-
+ 
 
 def show_some(player, dealer):
     print("\nDealer's Hand:")
