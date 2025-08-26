@@ -8,7 +8,7 @@ I've ghosted Python more often than I’ve opened VS Code. But this time:
 
 ✅ Daily commits  
 ✅ No skipping days                                                                               
-✅ Crystal-clear notes like “this means this, that does that”  
+✅ Crystal-clear notes like “this means this, that does that”   
 ✅ Explanations so beginner-friendly that even *yesterday-me* would get it  
 
 ---
