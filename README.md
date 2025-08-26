@@ -12,7 +12,7 @@ I've ghosted Python more often than I’ve opened VS Code. But this time:
 ✅ Explanations so beginner-friendly that even *yesterday-me* would get it  
 
 ---
-
+ 
 ## 📚 What’s in Here?
 
 Everything I wish existed when I kept restarting:
