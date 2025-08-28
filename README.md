@@ -8,17 +8,17 @@ I've ghosted Python more often than I’ve opened VS Code. But this time:
 
 ✅ Daily commits  
 ✅ No skipping days                                                                               
-✅ Crystal-clear notes like “this means this, that does that”  
+✅ Crystal-clear notes like “this means this, that does that”   
 ✅ Explanations so beginner-friendly that even *yesterday-me* would get it  
 
 ---
-
+ 
 ## 📚 What’s in Here?
 
 Everything I wish existed when I kept restarting:
 
 - 📅 **Day wise folders** with notes, code, and small wins  
-- ✍️ Beginner-level explanations (zero jargon, max clarity)  
+- ✍️ Beginner-level explanations (zero jargon, max clarity)   
 - 📥 Input/output samples with every concept  
 - 📈 Badges to track my streak and progress  
 - 🧠 Concepts rewritten for future-me who *will forget everything again*
